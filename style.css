@@ -48,3 +48,39 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
+/* Add these styles at the end of your style.css file */
+
+#about-me {
+    text-align: center;
+    padding: 20px;
+}
+
+#about-me img {
+    max-width: 150px; /* Adjust as needed */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+#about-me h1 {
+    margin: 10px 0;
+    font-size: 24px; /* Adjust as needed */
+}
+
+#about-me p {
+    font-size: 16px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    #about-me img {
+        max-width: 100px;
+    }
+    #about-me h1 {
+        font-size: 20px;
+    }
+    #about-me p {
+        font-size: 14px;
+    }
+}
